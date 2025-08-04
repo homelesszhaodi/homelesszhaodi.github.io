@@ -2,3 +2,19 @@ baseURL: https://example.org/
 languageCode: en-us
 title: 招娣の招笑言论大赏
 theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: whu
+      name: "武大图书馆事件"
+      url: "/series//whu/"
+      weight: 10
+    - identifier: badkarma
+      name: "恶业"
+      url: "/badkarma/"
+      weight: 10
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
