@@ -1,4 +1,4 @@
-# 杨景媛事件记录
+# 武大图书馆事件记录
 _本文转载自[yangjingyuan0828@GitHub/awesome-yangjingyuan](https://github.com/yangjingyuan0828/awesome-yangjingyuan/)_
 
 > If you are neutral in situations of injustice, you have chosen the side of the oppressor.

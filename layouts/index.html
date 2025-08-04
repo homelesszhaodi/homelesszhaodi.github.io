@@ -1,0 +1,30 @@
+{{- define "main" }}
+
+{{- if (and site.Params.profileMode.enabled .IsHome) }}
+    {{- partial "index_profile.html" . }}
+{{- else if and .IsHome site.Params.homeInfoParams }}
+    {{- partial "home_info.html" . }}
+{{- end }}
+
+<article class="post-single">
+    <header class="post-header">
+        <h1 class="post-title">
+            {{ .Title }}
+        </h1>
+        {{- if .Description }}
+        <div class="post-description">
+            {{ .Description }}
+        </div>
+        {{- end }}
+    </header>
+
+    {{- /* 渲染来自 content/_index.md 的主要内容 */}}
+    {{- if .Content }}
+    <div class="post-content">
+        {{- .Content -}}
+    </div>
+    {{- end }}
+
+</article>
+
+{{- end }}{{/* end main */}}

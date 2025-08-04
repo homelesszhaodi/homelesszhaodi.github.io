@@ -7,7 +7,7 @@ menu:
   main:
     - identifier: whu
       name: "武大图书馆事件"
-      url: "/series//whu/"
+      url: "/series/whu/"
       weight: 10
     - identifier: badkarma
       name: "恶业"
@@ -15,6 +15,4 @@ menu:
       weight: 10
 
 taxonomies:
-  category: categories
-  tag: tags
   series: series
