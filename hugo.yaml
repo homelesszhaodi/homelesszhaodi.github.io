@@ -20,3 +20,10 @@ menu:
 
 taxonomies:
   series: series
+
+params:
+  assets:
+    favicon: "https://raw.githubusercontent.com/homelesszhaodi/homelesszhaodi.github.io/868027e8f90f83bdc35c4476617f947b94256829/metadata/favicon/favicon.ico"
+    favicon16x16: "https://raw.githubusercontent.com/homelesszhaodi/homelesszhaodi.github.io/868027e8f90f83bdc35c4476617f947b94256829/metadata/favicon/favicon-16x16.png"
+    favicon32x32: "https://raw.githubusercontent.com/homelesszhaodi/homelesszhaodi.github.io/868027e8f90f83bdc35c4476617f947b94256829/metadata/favicon/favicon-32x32.png"
+    apple_touch_icon: "https://raw.githubusercontent.com/homelesszhaodi/homelesszhaodi.github.io/868027e8f90f83bdc35c4476617f947b94256829/metadata/favicon/apple-touch-icon.png"
