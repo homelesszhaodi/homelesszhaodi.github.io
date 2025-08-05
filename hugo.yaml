@@ -5,6 +5,10 @@ theme: ["PaperMod"]
 
 menu:
   main:
+    - identifier: lib
+      name: "招娣图书馆"
+      url: "/lib/"
+      weight: 10
     - identifier: whu
       name: "武大图书馆事件"
       url: "/series/whu/"
